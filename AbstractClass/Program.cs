@@ -31,16 +31,18 @@ namespace AbstractClass
     {
         static void Main()
         {
-            ChildClass c1 = new ChildClass();
-            c1.TestMethod();
-            ChildClass c2 = new ChildClass("ankur", 26);
+            //ChildClass c1 = new ChildClass();//instantiates 0 para(default) ctor of childclass which in turn instantiate 0 para(Default) ctor of base class
+            //c1.TestMethod();
+            ChildClass c2 = new ChildClass("Ujjwal", 27);//instantiate 2 para ctor of childclass which in turn instantiate 0 para(Default) ctor of base class
+            ChildClass c3 = new ChildClass("ankur", 26,"Data scientist");//instantiates 3 para ctor of childclass which in turn instantiates 2 para ctor of base class
             Console.ReadLine();
         
         }
         public class ChildClass : BaseClass
         {
             public ChildClass() { }
-            public ChildClass(string name,int age) : base(name, age) { }
+            public ChildClass(string name, int age) { }
+            public ChildClass(string name, int age , string profession) : base(name, age) { }
             public override void TestMethod()
             {
                 Console.WriteLine("Hello from the overriden test method.");
