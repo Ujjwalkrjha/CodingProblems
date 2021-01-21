@@ -42,7 +42,7 @@ namespace AbstractClass
         {
             public ChildClass() { }
             public ChildClass(string name, int age) { }
-            public ChildClass(string name, int age , string profession) : base(name, age) { }
+            public ChildClass(string name, int age , string profession) : base(name.ToUpper(), age) { }
             public override void TestMethod()
             {
                 Console.WriteLine("Hello from the overriden test method.");
