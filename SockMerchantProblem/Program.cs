@@ -8,18 +8,18 @@ namespace SockMerchantProblem
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Console.WriteLine("Enter the no of socks.");
             //int n = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Enter the socks");
-            int[] ar = new int[5] { 1, 1, 2, 2, 3 };
+            int[] ar = new int[7] { 1, 1, 2, 2, 3 ,3,5};
 
             Console.WriteLine(Program.sockMerchant(5, ar));
             Console.ReadLine();
 
         }
-        static int sockMerchant(int n, int[] ar)
+        public static int sockMerchant(int n, int[] ar)
         {
             int pairs = 0;
             HashSet<int> set = new HashSet<int>();

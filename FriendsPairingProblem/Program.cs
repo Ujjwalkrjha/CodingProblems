@@ -21,9 +21,7 @@ namespace FriendsPairingProblem
         public static int countFriendsPairings(int n)
         {
             int[] dp = new int[n+1];
-
-            // Filling dp[] in bottom-up manner using 
-            // recursive formula explained above. 
+            //Logic for filling up dp to get friends
             for (int i = 0; i <= n; i++)
             {
                 if (i <= 2)

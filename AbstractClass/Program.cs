@@ -40,7 +40,7 @@ namespace AbstractClass
         }
         public class ChildClass : BaseClass
         {
-            public ChildClass() { }
+            public ChildClass() : base("Faisal", 27) { }//write like this if you want to explicitly call a ctor with mismatched argument
             public ChildClass(string name, int age) { }
             public ChildClass(string name, int age , string profession) : base(name.ToUpper(), age) { }
             public override void TestMethod()
