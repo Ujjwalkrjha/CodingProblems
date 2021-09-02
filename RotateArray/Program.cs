@@ -10,19 +10,24 @@ namespace LeftRotateArray
     {
         static void Main(string[] args)
         {
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
-            leftRotate(arr, 2, 7);
-            printArray(arr, 7);
+            Console.WriteLine("Enter the array" );
+            string[] arr = Console.ReadLine().Split(' ');
+            Console.WriteLine("Enter the no of rotations");
+            int r = int.Parse(Console.ReadLine());
+            int n = arr.Length;
+            leftRotate(arr, r, n);
+            printArray(arr, n);
         }
-        static void leftRotate(int[] arr, int d, int n)
+        static void leftRotate(string[] arr, int d, int n)
         {
             for (int i = 0; i < d; i++)
                 leftRotatebyOne(arr, n);
         }
 
-        static void leftRotatebyOne(int[] arr, int n)
+        static void leftRotatebyOne(string[] arr, int n)
         {
-            int i, temp = arr[0];
+            int i;
+            string temp = arr[0];
             for (i = 0; i < n - 1; i++)
                 arr[i] = arr[i + 1];
 
@@ -30,14 +35,15 @@ namespace LeftRotateArray
         }
 
         /* utility function to print an array */
-        static void printArray(int[] arr, int size)
+        static void printArray(string[] arr, int size)
         {
             for (int i = 0; i < size; i++)
             {
                 Console.Write(arr[i] + " ");
             }
-                
+
             Console.ReadLine();
         }
+    
     }
 }
