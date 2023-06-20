@@ -13,7 +13,7 @@ namespace SockMerchantProblem
             //Console.WriteLine("Enter the no of socks.");
             //int n = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Enter the socks");
-            int[] ar = { 1, 1, 2, 2, 3 ,3,5};
+            int[] ar = { 1, 1, 2, 2, 3 ,3,3,5};
 
             Console.WriteLine(Program.sockMerchant(ar.Length, ar));
             Console.ReadLine();
@@ -29,7 +29,7 @@ namespace SockMerchantProblem
                 int[] matchedItems = Array.FindAll(ar, x => i == x);
                 int occurrencies = matchedItems.Length;
                 if (occurrencies > 1)
-                    pairs += ((occurrencies - (occurrencies % 2)) / 2);
+                    pairs += (occurrencies / 2);
                 set.Add(i);
             }
          return pairs;
