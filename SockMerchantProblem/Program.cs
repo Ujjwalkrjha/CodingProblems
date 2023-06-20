@@ -13,9 +13,9 @@ namespace SockMerchantProblem
             //Console.WriteLine("Enter the no of socks.");
             //int n = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Enter the socks");
-            int[] ar = new int[7] { 1, 1, 2, 2, 3 ,3,5};
+            int[] ar = { 1, 1, 2, 2, 3 ,3,5};
 
-            Console.WriteLine(Program.sockMerchant(5, ar));
+            Console.WriteLine(Program.sockMerchant(ar.Length, ar));
             Console.ReadLine();
 
         }
