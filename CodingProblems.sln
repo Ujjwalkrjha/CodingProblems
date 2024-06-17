@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendsPairingProblem", "FriendsPairingProblem\FriendsPairingProblem.csproj", "{766AB71D-BCBD-4965-BD00-F695AE197FE4}"
 EndProject
@@ -31,13 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepliconTest", "ConsoleApp2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Sentence", "Reverse Sentence\Reverse Sentence.csproj", "{014965F0-E0E4-41D0-B469-7DE1A95CFB31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotateArrayHackerRank", "LeftRotateArrayHackerRank\LeftRotateArrayHackerRank.csproj", "{C9741074-7877-4DB9-B004-5B44227105A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftRotateArrayHackerRank", "LeftRotateArrayHackerRank\LeftRotateArrayHackerRank.csproj", "{C9741074-7877-4DB9-B004-5B44227105A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{FBF79EE2-DF3F-4548-BB9E-7715D61EAD34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{FBF79EE2-DF3F-4548-BB9E-7715D61EAD34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{6A5944C3-7716-4A09-8781-1FDF0FD8E47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram", "Anagram\Anagram.csproj", "{6A5944C3-7716-4A09-8781-1FDF0FD8E47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{53A9E8D3-0FDD-4A62-B00B-41FF600ECFDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeapYear", "LeapYear\LeapYear.csproj", "{53A9E8D3-0FDD-4A62-B00B-41FF600ECFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicates", "RemoveDuplicates\RemoveDuplicates.csproj", "{CEFF4414-F263-42C0-9C17-7583CCB6175D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{EB826E76-F738-4791-9498-5490C9497AB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{53A9E8D3-0FDD-4A62-B00B-41FF600ECFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A9E8D3-0FDD-4A62-B00B-41FF600ECFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A9E8D3-0FDD-4A62-B00B-41FF600ECFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFF4414-F263-42C0-9C17-7583CCB6175D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFF4414-F263-42C0-9C17-7583CCB6175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFF4414-F263-42C0-9C17-7583CCB6175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFF4414-F263-42C0-9C17-7583CCB6175D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB826E76-F738-4791-9498-5490C9497AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB826E76-F738-4791-9498-5490C9497AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB826E76-F738-4791-9498-5490C9497AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB826E76-F738-4791-9498-5490C9497AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
